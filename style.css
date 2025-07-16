@@ -1,0 +1,135 @@
+.video-background {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    object-fit: cover;
+}
+
+nav {
+
+    color: rgb(231, 160, 160);
+    display: flex;
+    /* Make items side-by-side */
+    justify-content: space-between;
+    /* Space between logo and links */
+    align-items: center;
+    /* Vertically align in the center */
+    padding: 15px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav h2 {
+    margin: 0;
+}
+
+.nav-links a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-left: 20px;
+    /* Spacing between links */
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.nav-links a:hover {
+    color: #efcf4f;
+}
+
+
+.logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 30px;
+    border: 0px solid white;
+    border-radius: 20%;
+    padding: 0px;
+    background-color: #000000;
+}
+
+.center-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    color: white;
+}
+
+
+
+
+
+
+
+
+.card-container {
+    display: flex;
+    overflow-x: auto;
+    gap: 30px;
+    padding: 20px;
+    scroll-snap-type: x mandatory;
+    object-fit: cover;
+    border-radius: 10px;
+
+}
+
+
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    object-fit: cover;
+}
+
+
+.card-content h3 {
+    margin: 0 0 10px;
+}
+
+.card-content p {
+    font-size: 14px;
+    color: #555;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+
+.card-body {
+    justify-content: center;
+}
+
+.container1 {
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Arial', sans-serif;
+    font-size: 36px;
+    color: #333;
+}
+
+
+
+.button {
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+
+}
