@@ -12,11 +12,8 @@ nav {
 
     color: rgb(231, 160, 160);
     display: flex;
-    /* Make items side-by-side */
     justify-content: space-between;
-    /* Space between logo and links */
     align-items: center;
-    /* Vertically align in the center */
     padding: 15px 30px;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -57,6 +54,7 @@ nav h2 {
     height: 100vh;
     text-align: center;
     color: white;
+
 }
 
 
@@ -110,15 +108,17 @@ body {
 
 .card-body {
     justify-content: center;
+    margin-bottom: 80px;
 }
 
 .container1 {
     justify-content: center;
     text-align: center;
-    margin-top: 30px;
+    margin-bottom: 3px;
     font-family: 'Arial', sans-serif;
     font-size: 36px;
-    color: #333;
+    color: #0e0d0d;
+    background-color: aliceblue;
 }
 
 
@@ -132,4 +132,124 @@ body {
     font-weight: bold;
     border-radius: 8px;
 
+}
+
+.container-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+
+}
+
+.card {
+    margin: 20px;
+}
+
+
+.boader {
+    background-color: aliceblue;
+}
+
+.boader {
+    justify-content: center;
+}
+
+
+
+
+
+
+
+.bottom-footer {
+    background-color: #1e1e1e;
+    color: #fff;
+    padding: 40px 20px 20px;
+    font-family: Arial, sans-serif;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    gap: 30px;
+}
+
+.footer-section {
+    flex: 1 1 200px;
+}
+
+.footer-section h4 {
+    font-size: 16px;
+    color: #ffcc00;
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 5px 0;
+}
+
+.footer-section ul li a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    color: #00ffc8;
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 14px;
+    border-top: 1px solid #73a7d4;
+    padding-top: 10px;
+    color: #aaaaaa;
+}
+
+.navmess {
+    background-color: #00ffc8;
+}
+
+
+.container1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 36px;
+    color: #222;
+    background-color: #f0f0f0;
+    padding: 10px 0;
+    border-radius: 8px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+.order-icons {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.order-logo {
+    height: 40px;
+    width: auto;
+    filter: brightness(95%);
+    transition: transform 0.3s ease;
+}
+
+.order-logo:hover {
+    transform: scale(1.1);
 }
